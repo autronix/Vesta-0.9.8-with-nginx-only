@@ -24,13 +24,13 @@ Prerequisites: download and install php-fpm:
 Backup your original template files (CentOS 6.5/RHEL path displayed below, please check the path on your system):
 
 ```
- cd /usr/local/vesta/data/templates/nginx
+ cd /usr/local/vesta/data/templates/web/nginx
  mkdir bkp
  mv *.*tpl ./bkp
  cp ./bkp/ip_proxy.tpl ./
 ```
 
-Upload the files to %Vesta_install_Path%/data/templates/nginx
+Upload the files to %Vesta_install_Path%/data/templates/web/nginx
 
 Turn off Apache:
 
