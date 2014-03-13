@@ -12,7 +12,7 @@ Disclaimer: Use at your own risk. By downloading and using these files you agree
 Note: I have only tried this on CentOS 6.5 but it would probably work on other distros.
 
 
-How to allow the Vest Web manager to run with Nginx as the webserver
+How to allow the Vesta Web manager to run with Nginx as the webserver
 ----
 
 Prerequisites: download and install php-fpm:
