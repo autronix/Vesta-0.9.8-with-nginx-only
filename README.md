@@ -15,11 +15,12 @@ Note: I have only tried this on CentOS 6.5 but it would probably work on other d
 How to allow the Vesta Web manager to run with Nginx as the webserver
 ----
 
-Prerequisites: download and install php-fpm:
+Prerequisites: download and install php-fpm (https://www.digitalocean.com/community/articles/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-6):
 
 ``` 
  sudo yum --enablerepo=remi install php-fpm php-mysql
 ```
+
 
 Backup your original template files (CentOS 6.5/RHEL path displayed below, please check the path on your system):
 
